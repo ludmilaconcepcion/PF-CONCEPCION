@@ -29,6 +29,7 @@ body {
 }
 
 .foto1 {
+  display: flex;
   border-style: outset;
   border-radius: 15%;
   width: 80%;
@@ -37,12 +38,7 @@ body {
 
 /*nosotros*/
 .containernosotros {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "header header" "main main" "footer footer";
   display: flex;
-  justify-content: center;
   gap: 30px;
   padding-top: 10px;
 }
@@ -60,15 +56,15 @@ p {
 .imagens7 {
   border-style: outset;
   border-radius: 15%;
-  width: 500px;
+  width: 50%;
   margin-left: 50px;
 }
 
 .imagens8 {
   border-style: outset;
   border-radius: 15%;
-  width: 500px;
-  margin-left: 400px;
+  width: 50%;
+  margin-left: 100px;
   margin-top: 50px;
 }
 
@@ -161,7 +157,7 @@ p {
   display: inline-block;
   display: flex;
   text-align: justify;
-  margin-left: 450px;
+  margin-left: 50px;
 }
 .containerservicios .list2 {
   margin: 30px;
@@ -178,7 +174,6 @@ p {
   margin-top: 30px;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
-  height: 200px;
 }
 .containerservicios h3, .containerservicios h4 {
   background-color: rgba(22, 139, 228, 0.4274509804);
@@ -190,15 +185,13 @@ p {
   display: inline-block;
   display: flex;
   text-align: justify;
-  margin-left: 450px;
+  margin-left: 50px;
 }
 .containerservicios .bloq2 .p2 {
-  margin-left: 10px;
-  text-align: justify;
+  display: inline-block;
   display: flex;
-  justify-content: center;
-  width: 300px;
-  height: 200px;
+  text-align: justify;
+  margin: 10px;
   font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
@@ -207,6 +200,7 @@ p {
   text-align: justify;
   margin-right: 30px;
   margin-top: 30px;
+  width: 300px;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
 }
@@ -214,40 +208,34 @@ p {
   display: inline-block;
   display: flex;
   text-align: justify;
-  margin-left: 450px;
+  margin-left: 50px;
 }
 .containerservicios .bloq3 .p3 {
-  margin-left: 10px;
   text-align: justify;
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: 300px;
   font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: justify;
-  margin-right: 30px;
   margin-top: 30px;
+  height: auto;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
 }
 .containerservicios .imagens1 {
-  margin-left: 20px;
   border-radius: 15%;
   width: 500px;
   border-style: outset;
 }
 .containerservicios .imagens2 {
-  margin-left: 20px;
   border-radius: 15%;
   width: 500px;
   border-style: outset;
 }
 .containerservicios .imagens3 {
-  margin-left: 20px;
   border-radius: 15%;
   width: 500px;
   border-style: outset;
@@ -303,7 +291,7 @@ footer {
   justify-content: center;
   padding-bottom: 5vw;
   padding-top: 5vw;
-  color: rgb(10, 10, 10);
+  color: #0a0a0a;
   margin-bottom: 0;
   margin-top: 5vw;
 }
@@ -323,8 +311,8 @@ footer {
 /*nosotros*/
 @media screen and (max-width: 768px) {
   .containernosotros {
-    grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "footer";
+    display: grid;
+    grid: none;
   }
   .imagens7, .imagens8 {
     width: 100%;
@@ -333,31 +321,28 @@ footer {
 }
 /*servicios*/
 @media screen and (max-width: 768px) {
-  .containerservicios .listbloque,
-  .containerservicios .bloq2,
-  .containerservicios .bloq3 {
-    margin-left: 0;
-    padding: 10px;
+  .containerservicios .listbloque, .containerservicios .bloq2, .containerservicios .bloq3 {
+    display: block;
+    text-align: justify;
+    margin: none;
   }
-  .containerservicios .imagens2 {
+  .containerservicios .imagens1, .containerservicios .imagens2, .containerservicios .imagens3 {
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   .p1 {
     display: block;
+    text-align: center;
   }
   .imagens1, .imagens2, .imagens3 {
-    width: 100%;
+    width: 20px;
   }
 }
 /*producto*/
 @media only screen and (max-width: 768px) {
   .containerproducto {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "header" "main" "footer";
-    gap: 20px;
+    display: block;
   }
   .containerproducto .menu2 {
     width: 100%;
@@ -386,6 +371,7 @@ footer {
 /*formulario*/
 @media screen and (max-width: 768px) {
   .formulario2 {
+    display: block;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -404,7 +390,7 @@ footer {
     display: block;
     text-align: center;
     margin: 10px;
-    background-color: rgba(46, 109, 197, 0.649);
+    background-color: rgba(22, 139, 228, 0.4274509804);
     padding: 10px;
   }
   /*footer*/

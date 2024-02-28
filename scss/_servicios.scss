@@ -3,12 +3,12 @@
 .p1{ display: inline-block;
     display: flex;
     text-align: justify;
-    margin: 10px;   
+    margin: $medida2;   
     font-size: 16px;
-    padding-left:  10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;       
+    padding-left:  $medida2;
+    padding-right: $medida2;
+    padding-top: $medida2;
+    padding-bottom: $medida2;       
    text-align: justify;
    margin-right: 30px;
    margin-top: 30px;
@@ -20,24 +20,24 @@
 .listbloque{ display: inline-block;
     display: flex;
     text-align: justify;
-    margin-left: 450px;
+    margin-left: 50px;
 
     }
-    .list2{margin: 30px;;
+    .list2{margin: 30px;
         padding: 0;
         box-sizing: border-box;
         font-size: auto;
         font-size: 16px;
-        padding-left:  10px;
-        padding-right: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;       
+        padding-left:  $medida2;
+        padding-right: $medida2;
+        padding-top:$medida2;
+        padding-bottom: $medida2;       
        text-align: justify;
        margin-right: 30px;
        margin-top: 30px;
        background-color: $azulito;
        border-radius: 10%;
-       height:200px ;
+       
       
         }
         h3,h4{ 
@@ -49,23 +49,24 @@
         .bloq2{display: inline-block;
             display: flex;
             text-align: justify;
-            margin-left: 450px;
-        .p2{ margin-left: 10px;
+            margin-left: 50px;
+
+        .p2{ display: inline-block;
+            display: flex;
             text-align: justify;
-          display: flex;
-          justify-content: center;
-          width: 300px; 
-          height: 200px;
-          font-size: 16px;
-          padding-left:  10px;
-          padding-right: 10px;
-          padding-top: 10px;
-          padding-bottom: 10px;       
-          text-align: justify;
-          margin-right: 30px;
-          margin-top: 30px;
-          background-color: $azulito;
-          border-radius: 10%;
+            margin: $medida2;   
+            font-size: 16px;
+            padding-left:  $medida2;
+            padding-right: $medida2;
+            padding-top: $medida2;
+            padding-bottom: $medida2;       
+           text-align: justify;
+           margin-right: 30px;
+           margin-top: 30px;
+           width: 300px;
+           
+           background-color:$azulito;
+           border-radius: 10%; 
         
         
         }
@@ -73,45 +74,42 @@
         .bloq3{display: inline-block;
                 display: flex;
                 text-align: justify; 
-                margin-left: 450px;
-            .p3{ margin-left:10px;
+                margin-left: 50px;
+                
+            .p3{ 
                 text-align: justify;
               display: flex;
               justify-content: center;
-              width: 400px; 
-              height: 300px;
               font-size: 16px;
-              padding-left:  10px;
-              padding-right: 10px;
-              padding-top: 10px;
-              padding-bottom: 10px;       
+              padding-left:  $medida2;
+              padding-right: $medida2;
+              padding-top: $medida2;
+              padding-bottom: $medida2;       
               text-align: justify;
-              margin-right: 30px;
               margin-top: 30px;
+              height: auto;
               background-color: $azulito;
               border-radius: 10%;
               
             
             }
         }
-        .imagens1{ margin-left: 20px;
+        .imagens1{ 
             border-radius: 15%;
-            width: 500px;
+            width:500px;
             border-style: outset;
         }
 
-        .imagens2{ margin-left: 20px;
+        .imagens2{ 
             border-radius: 15%;
-            width: $medida1;
+            width: 500px;
             border-style: outset;
         
         }
-        .imagens3{margin-left: 20px;
+        .imagens3{
             border-radius: 15%;
-            width: 500px;
+            width:500px;
             border-style: outset;
             }
         
-
-
         }

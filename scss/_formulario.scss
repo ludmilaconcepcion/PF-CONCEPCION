@@ -10,13 +10,13 @@
         display: inline-flex;
         flex-direction: column;  
         margin-left: 700px;
-        padding: 10px;
+        padding: $medida2;
         
         .menu li{display: inline-block;
             text-align: center;
-            margin: 10px;
+            margin: $medida2;
             background-color: $verdesito;
-            padding: 10px;
+            padding: $medida2;
 
             
             }
@@ -32,7 +32,7 @@
         display: inline-flex;
         flex-direction: column;
         margin-left: 630px;
-        padding: 10px;
+        padding: $medida2;
        
         main section img{ 
             width: 600px;

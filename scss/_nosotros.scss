@@ -1,21 +1,14 @@
 /*nosotros*/
 
 .containernosotros{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows:1fr 1fr ;
-    grid-template-areas: "header header"
-    "main main"
-    "footer footer";
     display: flex;
-    justify-content: center;
     gap: 30px; 
     padding-top: 10px;
 }
 
 p{
     font-size:medium;
-    padding: 10px;       
+    padding:$medida2;       
     text-align: justify;
     margin-left: 30px;
     margin-top:50px;
@@ -26,14 +19,14 @@ p{
 .imagens7{ 
     border-style: outset;
     border-radius: 15%;
-    width: $medida1;
+    width: 50%;
     margin-left: 50px;
 }
 
 .imagens8{
     border-style: outset;
     border-radius: 15%;
-    width:$medida1;
-    margin-left: 400px;
+    width:50%;
+    margin-left: 100px;
     margin-top: 50px;
 }

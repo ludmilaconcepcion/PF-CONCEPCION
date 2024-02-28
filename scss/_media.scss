@@ -1,7 +1,7 @@
 /*media*/
 
 /*body*/
-@media (min-width: 768px) {
+@media (min-width: 768px) { 
     
     .foto1 {
         width: 50%; 
@@ -13,10 +13,8 @@
 /*nosotros*/
 @media screen and (max-width: 768px){
     .containernosotros{
-        grid-template-columns: 1fr;
-        grid-template-areas: "header"
-        "main"
-        "footer";
+      display: grid;
+      grid: none;
     }
     
     .imagens7, .imagens8{
@@ -28,14 +26,14 @@
   /*servicios*/
   @media screen and (max-width: 768px) {
     .containerservicios {
-        .listbloque,
-        .bloq2,
-        .bloq3 {
-            margin-left: 0;
-            padding: 10px;
+      
+        .listbloque, .bloq2, .bloq3 {
+            display: block;
+            text-align: justify;
+           margin: none;
         }
 
-        .imagens2 {
+        .imagens1, .imagens2, .imagens3{
             width: 100%;
         }
     }
@@ -44,10 +42,12 @@
 @media screen and (max-width: 480px) {
     .p1 {
         display: block;
+        text-align: center;
+        
     }
 
     .imagens1, .imagens2, .imagens3 {
-        width: 100%;
+        width: 20px;
     }
 }
 
@@ -55,13 +55,7 @@
 
 /*producto*/
 @media only screen and (max-width: 768px) { 
-    .containerproducto{ grid-template-columns: 1fr; 
-        grid-template-rows:1fr 1fr 1fr;
-         grid-template-areas: "header" "main" "footer"; 
-         gap: 20px;
-
- 
-    
+    .containerproducto{display: block;
         .menu2{
             width: 100%;
             margin: 0;
@@ -75,8 +69,8 @@
         .product2 .menu3{
             width: 100%;
             height: auto;
-            margin: 10px 0;
-            padding: 10px;
+            margin: $medida2 0;
+            padding: $medida2;
         }
     
         h3{
@@ -86,15 +80,19 @@
         .product3 .menu4{
             width: 100%;
             height: auto;
-            margin: 10px 0;
-            padding: 10px;
+            margin: $medida2 0;
+            padding: $medida2;
         }
     }
     }
 /*formulario*/
 @media screen and (max-width: 768px) { 
     .formulario2{
-         margin: 0 auto; margin-top: 20px; margin-bottom: 20px; padding: 5px;
+        display: block;
+         margin: 0 auto; 
+         margin-top: 20px; 
+         margin-bottom: 20px;
+          padding: 5px;
          }
 
  
@@ -114,8 +112,8 @@ main section img{
     display: block;
     text-align: center;
     margin: 10px;
-    background-color: rgba(46, 109, 197, 0.649);
-    padding: 10px;
+    background-color: $azulito;
+    padding: $medida2;
 }
 
 /*footer*/
