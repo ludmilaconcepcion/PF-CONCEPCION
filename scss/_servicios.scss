@@ -1,0 +1,117 @@
+/*servicios*/
+    
+.p1{ display: inline-block;
+    display: flex;
+    text-align: justify;
+    margin: 10px;   
+    font-size: 16px;
+    padding-left:  10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;       
+   text-align: justify;
+   margin-right: 30px;
+   margin-top: 30px;
+   background-color:$azulito;
+   border-radius: 10%; 
+   }
+
+.containerservicios{
+.listbloque{ display: inline-block;
+    display: flex;
+    text-align: justify;
+    margin-left: 450px;
+
+    }
+    .list2{margin: 30px;;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: auto;
+        font-size: 16px;
+        padding-left:  10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;       
+       text-align: justify;
+       margin-right: 30px;
+       margin-top: 30px;
+       background-color: $azulito;
+       border-radius: 10%;
+       height:200px ;
+      
+        }
+        h3,h4{ 
+            background-color:$azulito ;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10%;
+        }
+        .bloq2{display: inline-block;
+            display: flex;
+            text-align: justify;
+            margin-left: 450px;
+        .p2{ margin-left: 10px;
+            text-align: justify;
+          display: flex;
+          justify-content: center;
+          width: 300px; 
+          height: 200px;
+          font-size: 16px;
+          padding-left:  10px;
+          padding-right: 10px;
+          padding-top: 10px;
+          padding-bottom: 10px;       
+          text-align: justify;
+          margin-right: 30px;
+          margin-top: 30px;
+          background-color: $azulito;
+          border-radius: 10%;
+        
+        
+        }
+        }
+        .bloq3{display: inline-block;
+                display: flex;
+                text-align: justify; 
+                margin-left: 450px;
+            .p3{ margin-left:10px;
+                text-align: justify;
+              display: flex;
+              justify-content: center;
+              width: 400px; 
+              height: 300px;
+              font-size: 16px;
+              padding-left:  10px;
+              padding-right: 10px;
+              padding-top: 10px;
+              padding-bottom: 10px;       
+              text-align: justify;
+              margin-right: 30px;
+              margin-top: 30px;
+              background-color: $azulito;
+              border-radius: 10%;
+              
+            
+            }
+        }
+        .imagens1{ margin-left: 20px;
+            border-radius: 15%;
+            width: 500px;
+            border-style: outset;
+        }
+
+        .imagens2{ margin-left: 20px;
+            border-radius: 15%;
+            width: $medida1;
+            border-style: outset;
+        
+        }
+        .imagens3{margin-left: 20px;
+            border-radius: 15%;
+            width: 500px;
+            border-style: outset;
+            }
+        
+
+
+        }

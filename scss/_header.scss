@@ -1,0 +1,33 @@
+
+
+*{ 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+
+    header{ background-color: $azulito;
+        background-image: linear-gradient($azul, $verdesito, $azulito);
+        
+
+    text-align: center;
+
+        nav{
+                a{ margin-left:100px;
+                    padding: 100px;
+                    display: flex;
+                    text-align: center;
+                    &:hover {
+                        background-color: $verdesito;
+                         color: $verdesito;
+                        text-decoration: center;
+                        border-radius: 10px;
+                        }
+                  
+                }
+  
+            }
+    }

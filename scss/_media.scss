@@ -1,0 +1,129 @@
+/*media*/
+
+/*body*/
+@media (min-width: 768px) {
+    
+    .foto1 {
+        width: 50%; 
+        margin: 50px 25%; 
+    }
+}
+
+
+/*nosotros*/
+@media screen and (max-width: 768px){
+    .containernosotros{
+        grid-template-columns: 1fr;
+        grid-template-areas: "header"
+        "main"
+        "footer";
+    }
+    
+    .imagens7, .imagens8{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+  /*servicios*/
+  @media screen and (max-width: 768px) {
+    .containerservicios {
+        .listbloque,
+        .bloq2,
+        .bloq3 {
+            margin-left: 0;
+            padding: 10px;
+        }
+
+        .imagens2 {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .p1 {
+        display: block;
+    }
+
+    .imagens1, .imagens2, .imagens3 {
+        width: 100%;
+    }
+}
+
+  
+
+/*producto*/
+@media only screen and (max-width: 768px) { 
+    .containerproducto{ grid-template-columns: 1fr; 
+        grid-template-rows:1fr 1fr 1fr;
+         grid-template-areas: "header" "main" "footer"; 
+         gap: 20px;
+
+ 
+    
+        .menu2{
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+        }
+    
+        .imagenp4, .imagenp5, .imagenp6{
+            width: 100%;
+        }
+    
+        .product2 .menu3{
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+            padding: 10px;
+        }
+    
+        h3{
+            text-align: center;
+        }
+    
+        .product3 .menu4{
+            width: 100%;
+            height: auto;
+            margin: 10px 0;
+            padding: 10px;
+        }
+    }
+    }
+/*formulario*/
+@media screen and (max-width: 768px) { 
+    .formulario2{
+         margin: 0 auto; margin-top: 20px; margin-bottom: 20px; padding: 5px;
+         }
+
+ 
+
+.mapa{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+main section img{
+    width: 100%;
+}
+
+.menu li {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(46, 109, 197, 0.649);
+    padding: 10px;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+}
