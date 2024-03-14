@@ -1,110 +1,100 @@
 /*servicios*/
     
-.p1{ display: inline-block;
-    display: flex;
-    text-align: justify;
+.p1{display: flex;
+    justify-content: center;
+    align-items: center;
     margin: $medida2;   
     font-size: 16px;
     padding-left:  $medida2;
     padding-right: $medida2;
     padding-top: $medida2;
     padding-bottom: $medida2;       
-   text-align: justify;
-   margin-right: 30px;
-   margin-top: 30px;
    background-color:$azulito;
    border-radius: 10%; 
    }
-
-.containerservicios{
-.listbloque{ display: inline-block;
-    display: flex;
-    text-align: justify;
-    margin-left: 50px;
-
+   h3,h4{ 
+    background-color:$azulito ;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10%;
     }
-    .list2{margin: 30px;
+    .containerservicios{
+    .listbloque{ display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .list2{    display: flex;
+        justify-content: center;
+        margin-top: 20px;
         padding: 0;
         box-sizing: border-box;
         font-size: auto;
         font-size: 16px;
-        padding-left:  $medida2;
-        padding-right: $medida2;
-        padding-top:$medida2;
-        padding-bottom: $medida2;       
-       text-align: justify;
-       margin-right: 30px;
-       margin-top: 30px;
-       background-color: $azulito;
-       border-radius: 10%;
-       
-      
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 25px;
+        text-align: justify;
+        background-color: rgba(22, 139, 228, 0.4274509804);
+        border-radius: 10%;
         }
-        h3,h4{ 
-            background-color:$azulito ;
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-            border-radius: 10%;
-        }
-        .bloq2{display: inline-block;
-            display: flex;
-            text-align: justify;
-            margin-left: 50px;
+    }
+    }
 
-        .p2{ display: inline-block;
-            display: flex;
-            text-align: justify;
-            margin: $medida2;   
+        .bloq2{display: flex;
+                justify-content: center;
+                align-items: center;
+
+        .p2{display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: auto;
             font-size: 16px;
-            padding-left:  $medida2;
-            padding-right: $medida2;
-            padding-top: $medida2;
-            padding-bottom: $medida2;       
-           text-align: justify;
-           margin-right: 30px;
-           margin-top: 30px;
-           width: 300px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: justify;
+            width: 332px;
+            height: 200%;
+            margin: 25px;
+            background-color: rgba(22, 139, 228, 0.4274509804);
+            border-radius: 10%;
            
-           background-color:$azulito;
-           border-radius: 10%; 
+        }
+        }
+        .bloq3{display: flex;
+            justify-content: center;
+            align-items: center;
+                .p3{display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    padding-left:  $medida2;
+                    padding-right: $medida2;
+                    padding-top: $medida2;
+                    padding-bottom: $medida2;       
+                    text-align: justify;
+                    width:332px;
+                    height: 250%;
+                    margin:25px;
+                    background-color:$azulito;
+                    border-radius: 10%; 
+                  }
+                }
         
-        
-        }
-        }
-        .bloq3{display: inline-block;
-                display: flex;
-                text-align: justify; 
-                margin-left: 50px;
-                
-            .p3{ 
-                text-align: justify;
-              display: flex;
-              justify-content: center;
-              font-size: 16px;
-              padding-left:  $medida2;
-              padding-right: $medida2;
-              padding-top: $medida2;
-              padding-bottom: $medida2;       
-              text-align: justify;
-              margin-top: 30px;
-              height: auto;
-              background-color: $azulito;
-              border-radius: 10%;
-              
-            
-            }
-        }
         .imagens1{ 
             border-radius: 15%;
             width:500px;
             border-style: outset;
         }
-
         .imagens2{ 
             border-radius: 15%;
             width: 500px;
             border-style: outset;
-        
         }
         .imagens3{
             border-radius: 15%;
@@ -112,4 +102,3 @@
             border-style: outset;
             }
         
-        }

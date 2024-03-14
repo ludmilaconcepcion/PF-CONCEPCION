@@ -9,37 +9,36 @@
         border-width: 5px;
         display: inline-flex;
         flex-direction: column;  
-        margin-left: 700px;
+        margin-left: 396px;
         padding: $medida2;
+       
         
-        .menu li{display: inline-block;
-            text-align: center;
+        .menu li{    display: flex;
+            justify-content: center;
+            align-items: center;
             margin: $medida2;
             background-color: $verdesito;
             padding: $medida2;
+            width: 400px;
+            height: 400px;
 
             
             }
        }
     
 
-    .mapa{text-align: center;
+    .mapa{ display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 472px;
         border-style:solid ;
         border-radius: 20px;
         background-color: $verdesito;
         border-color: $azulito;
-        border-width: 5px;
-        display: inline-flex;
-        flex-direction: column;
-        margin-left: 630px;
         padding: $medida2;
+        width: 350px;
        
-        main section img{ 
-            width: 600px;
-           
-            main section{
-                text-align: center;
-              
-            }
+      
+     
         }   
-    }
+    

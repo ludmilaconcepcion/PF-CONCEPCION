@@ -88,15 +88,11 @@
 /*formulario*/
 @media screen and (max-width: 768px) { 
     .formulario2{
-        display: block;
+      
          margin: 0 auto; 
-         margin-top: 20px; 
          margin-bottom: 20px;
           padding: 5px;
          }
-
- 
-
 .mapa{
     margin: 0 auto;
     margin-top: 20px;
@@ -104,9 +100,7 @@
     padding: 5px;
 }
 
-main section img{
-    width: 100%;
-}
+
 
 .menu li {
     display: block;
@@ -120,7 +114,6 @@ main section img{
 
 footer {
     margin-top: 20px;
-    margin-bottom: 20px;
     padding-bottom: 50px;
     padding-top: 50px;
 }

@@ -10,10 +10,14 @@ header {
   background-image: linear-gradient(#00008b, rgba(43, 118, 141, 0.6470588235), rgba(22, 139, 228, 0.4274509804));
   text-align: center;
 }
+
 header nav a {
-  margin-left: 65px;
+  margin-left: 100px;
+  padding: 100px;
+  display: flex;
   text-align: center;
 }
+
 header nav a:hover {
   background-color: rgba(43, 118, 141, 0.6470588235);
   color: rgba(43, 118, 141, 0.6470588235);
@@ -27,9 +31,6 @@ body {
 }
 
 .foto1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-style: outset;
   border-radius: 15%;
   width: 80%;
@@ -38,41 +39,38 @@ body {
 
 /*nosotros*/
 .containernosotros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "header header" "main main" "footer footer";
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 30px;
   padding-top: 10px;
 }
-.containernosotros p {
+
+p {
   font-size: medium;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
+  margin-left: 30px;
+  margin-top: 50px;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
-  margin-top: 24px;
 }
 
 .imagens7 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-style: outset;
   border-radius: 15%;
-  width: 80%;
+  width: 500px;
   margin-left: 50px;
 }
 
 .imagens8 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-style: outset;
   border-radius: 15%;
-  width: 70%;
-  margin-left: 100px;
+  width: 500px;
+  margin-left: 400px;
   margin-top: 50px;
 }
 
@@ -86,6 +84,7 @@ body {
   justify-content: center;
   gap: 30px;
 }
+
 .containerproducto .menu2 {
   font-size: medium;
   padding-left: 20px;
@@ -98,21 +97,25 @@ body {
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
 }
+
 .containerproducto .imagenp4 {
   border-style: outset;
   border-radius: 15%;
   width: 400px;
 }
+
 .containerproducto .imagenp5 {
   border-style: outset;
   border-radius: 15%;
   width: 400px;
 }
+
 .containerproducto .imagenp6 {
   border-style: outset;
   border-radius: 15%;
   width: 400px;
 }
+
 .containerproducto .product2 .menu3 {
   font-size: medium;
   padding-left: 20px;
@@ -126,9 +129,11 @@ body {
   border-radius: 10%;
   height: 300px;
 }
+
 .containerproducto h3 {
   text-align: center;
 }
+
 .containerproducto .product3 .menu4 {
   font-size: medium;
   padding-left: 20px;
@@ -145,109 +150,122 @@ body {
 
 /*servicios*/
 .p1 {
+  display: inline-block;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
   margin: 10px;
   font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-top: 30px;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
 }
 
-h3, h4 {
+.containerservicios .listbloque {
+  display: inline-block;
+  display: flex;
+  text-align: justify;
+  margin-left: 450px;
+}
+
+.containerservicios .list2 {
+  margin: 30px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: auto;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+  margin-right: 30px;
+  margin-top: 30px;
+  background-color: rgba(22, 139, 228, 0.4274509804);
+  border-radius: 10%;
+  height: 200px;
+}
+
+.containerservicios h3, .containerservicios h4 {
   background-color: rgba(22, 139, 228, 0.4274509804);
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 10%;
 }
 
-.containerservicios .listbloque {
+.containerservicios .bloq2 {
+  display: inline-block;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.containerservicios .listbloque .list2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: auto;
-  font-size: 16px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 25px;
   text-align: justify;
-  background-color: rgba(22, 139, 228, 0.4274509804);
-  border-radius: 10%;
+  margin-left: 450px;
 }
 
-.bloq2 {
+.containerservicios .bloq2 .p2 {
+  margin-left: 10px;
+  text-align: justify;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.bloq2 .p2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: auto;
+  width: 300px;
+  height: 200px;
   font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: justify;
-  width: 332px;
-  height: 200%;
-  margin: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
 }
 
-.bloq3 {
+.containerservicios .bloq3 {
+  display: inline-block;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: justify;
+  margin-left: 450px;
 }
-.bloq3 .p3 {
+
+.containerservicios .bloq3 .p3 {
+  margin-left: 10px;
+  text-align: justify;
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: 400px;
+  height: 300px;
   font-size: 16px;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: justify;
-  width: 332px;
-  height: 250%;
-  margin: 25px;
+  margin-right: 30px;
+  margin-top: 30px;
   background-color: rgba(22, 139, 228, 0.4274509804);
   border-radius: 10%;
 }
 
-.imagens1 {
+.containerservicios .imagens1 {
+  margin-left: 20px;
   border-radius: 15%;
   width: 500px;
   border-style: outset;
 }
 
-.imagens2 {
+.containerservicios .imagens2 {
+  margin-left: 20px;
   border-radius: 15%;
   width: 500px;
   border-style: outset;
 }
 
-.imagens3 {
+.containerservicios .imagens3 {
+  margin-left: 20px;
   border-radius: 15%;
   width: 500px;
   border-style: outset;
@@ -266,31 +284,37 @@ h3, h4 {
   border-width: 5px;
   display: inline-flex;
   flex-direction: column;
-  margin-left: 396px;
+  margin-left: 700px;
   padding: 10px;
 }
+
 .formulario2 .menu li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   margin: 10px;
   background-color: rgba(43, 118, 141, 0.6470588235);
   padding: 10px;
-  width: 400px;
-  height: 400px;
 }
 
 .mapa {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 472px;
+  text-align: center;
   border-style: solid;
   border-radius: 20px;
   background-color: rgba(43, 118, 141, 0.6470588235);
   border-color: rgba(22, 139, 228, 0.4274509804);
+  border-width: 5px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 630px;
   padding: 10px;
-  width: 350px;
+}
+
+.mapa main section img {
+  width: 600px;
+}
+
+.mapa main section img main section {
+  text-align: center;
 }
 
 footer {
@@ -300,7 +324,8 @@ footer {
   justify-content: center;
   padding-bottom: 5vw;
   padding-top: 5vw;
-  color: #0a0a0a;
+  color: rgb(10, 10, 10);
+  margin-bottom: 0;
   margin-top: 5vw;
 }
 
@@ -319,8 +344,8 @@ footer {
 /*nosotros*/
 @media screen and (max-width: 768px) {
   .containernosotros {
-    display: grid;
-    grid: none;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header" "main" "footer";
   }
   .imagens7, .imagens8 {
     width: 100%;
@@ -329,30 +354,33 @@ footer {
 }
 /*servicios*/
 @media screen and (max-width: 768px) {
-  .containerservicios .listbloque, .containerservicios .bloq2, .containerservicios .bloq3 {
-    display: block;
-    text-align: justify;
-    margin: none;
+  .containerservicios .listbloque,
+  .containerservicios .bloq2,
+  .containerservicios .bloq3 {
+    margin-left: 0;
+    padding: 10px;
   }
-  .containerservicios .imagens1, .containerservicios .imagens2, .containerservicios .imagens3 {
+  .containerservicios .imagens2 {
     width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
   .p1 {
     display: block;
-    text-align: center;
   }
   .imagens1, .imagens2, .imagens3 {
-    width: 20px;
+    width: 100%;
   }
 }
 /*producto*/
 @media only screen and (max-width: 768px) {
   .containerproducto {
-    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "header" "main" "footer";
+    gap: 20px;
   }
-  .containerproducto .menu2 {
+  .containerproducto copy .menu2 {
     width: 100%;
     margin: 0;
     padding: 10px;
@@ -380,6 +408,7 @@ footer {
 @media screen and (max-width: 768px) {
   .formulario2 {
     margin: 0 auto;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
   }
@@ -389,22 +418,24 @@ footer {
     margin-bottom: 20px;
     padding: 5px;
   }
+  main section img {
+    width: 100%;
+  }
   .menu li {
     display: block;
     text-align: center;
     margin: 10px;
-    background-color: rgba(22, 139, 228, 0.4274509804);
+    background-color: rgba(46, 109, 197, 0.649);
     padding: 10px;
   }
   /*footer*/
   footer {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding-bottom: 50px;
     padding-top: 50px;
   }
 }
-.fotoerror {
-  width: 100%;
-}
+
 
 /*# sourceMappingURL=styles.css.map */
